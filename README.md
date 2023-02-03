@@ -5,3 +5,10 @@ i'm  trying to create a wordle50 game which is basically  a code  script for the
 # Yellow mean right character but wrong position .
 # RED means wrong character.
 as the game is built for you have an extra guess for each  type file for example if your fills are 4-character length you will have  5 guesses and so on .
+to be able to combile it in your mobile use :
+# cc wordle50.c -o wordle50 cs50.c
+and to run it :
+# make sure that you are in the right path of the file and it's better to download WSL on your windows to be able to run smoothly without any errors.
+# ./wordle50 n
+n is number from 5-8  that refereces to the name of the file which is the number of characters in word.
+
